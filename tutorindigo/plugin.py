@@ -19,18 +19,18 @@ config: t.Dict[str, t.Dict[str, t.Any]] = {
     # Add here your new settings
     "defaults": {
         "VERSION": __version__,
-        "WELCOME_MESSAGE": "The place for all your online learning",
-        "PRIMARY_COLOR": "#15376D",  # Indigo
+        "WELCOME_MESSAGE": "Deine Quelle für die besten Kurse im Bereich Digital Accessibility",
+        "PRIMARY_COLOR": "#FFB6C1",  # Light Pink ?!
         "ENABLE_DARK_TOGGLE": True,
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[]
         "FOOTER_NAV_LINKS": [
-            {"title": "About Us", "url": "/about"},
-            {"title": "Blog", "url": "/blog"},
-            {"title": "Donate", "url": "/donate"},
-            {"title": "Terms of Service", "url": "/tos"},
-            {"title": "Privacy Policy", "url": "/privacy"},
+            {"title": "About Us", "url": "https://ideenquelle-webdesign.de/"},
+            {"title": "Blog", "url": "https://ideenquelle-webdesign.de/blog"},
+            # {"title": "Donate", "url": "/donate"},
+            # {"title": "Terms of Service", "url": "/tos"},
+            # {"title": "Privacy Policy", "url": "/privacy"},
             {"title": "Help", "url": "/help"},
             {"title": "Contact Us", "url": "/contact"},
         ],
