@@ -19,7 +19,7 @@ config: t.Dict[str, t.Dict[str, t.Any]] = {
     # Add here your new settings
     "defaults": {
         "VERSION": __version__,
-        "WELCOME_MESSAGE": "Deine Quelle für die besten Kurse im Bereich Digital Accessibility",
+        "WELCOME_MESSAGE": "Die besten Kurse im Bereich Digital Accessibility",
         "PRIMARY_COLOR": "#FFB6C1",  # Light Pink ?!
         "ENABLE_DARK_TOGGLE": True,
         # Footer links are dictionaries with a "title" and "url"
